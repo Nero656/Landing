@@ -8,18 +8,8 @@
   src:url(Fonts/Forest-1.ttf);
 }
 
-@font-face {
-  font-family: Forest-2;
-  src:url(Fonts/Forest-2.ttf);
-}
-
-@font-face {
-  font-family: Forest-3;
-  src:url(Fonts/Forest-3.ttf);
-}
-
 ::-webkit-scrollbar {
-  width: 0px;
+  display: none;
 }
 
 a {text-decoration: none;}
@@ -82,7 +72,7 @@ footer
   background: url(img/1.jpg) no-repeat;
   /* width: 100%; */
   background-position: center;
-  background-attachment:scroll; 
+  /* background-attachment:fixed; */
   background-size: cover;
   height: 60rem;
   z-index: -1;
@@ -153,8 +143,36 @@ footer
   left: 50%;
   transform: translate(-50%, 850%); */
 }
+/* Specialization-elements */
+.SpecializationBackGround{
+  background: url(img/2.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 70rem;
+  z-index: -1;
+  padding-top: 15rem;
+}
 
+.Specialization
+{
+    color:#ffffff;
+    font-family: Bahnschrift;
+    font-style: Regular;
+}
 
+.SpecHeadCol
+{
+  color:#eb5d17;
+}
+
+.ScpecialCards
+{
+  margin-top: 5rem;
+}
+.indentation
+{
+  margin-top: 3.25rem;
+}
 
 /* footer-elements */
 .social-web
