@@ -157,22 +157,31 @@ footer
 {
     color:#ffffff;
     font-family: Bahnschrift;
-    font-style: Regular;
+}
+.SpecializationNumber
+{
+  font-family: Segoe UI;
+  background: linear-gradient(120deg, #e97529 26%, #9a3768 56%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #eb5d17;
+  display: table;
 }
 
 .SpecHeadCol
 {
-  color:#eb5d17;
+  color:#e97529;
+}
+.card-text
+{
+  color:#7f7f7f;
 }
 
-.ScpecialCards
-{
-  margin-top: 5rem;
-}
 .indentation
 {
-  margin-top: 3.25rem;
+  margin-top: 30px;
 }
+
 
 /* footer-elements */
 .social-web
