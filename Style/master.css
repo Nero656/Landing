@@ -1,0 +1,442 @@
+@font-face {
+  font-family: Beckman-Heavy;
+  src:url(Fonts/Beckman-Heavy.otf);
+}
+
+@font-face {
+  font-family: Forest-1;
+  src:url(Fonts/Forest-1.ttf);
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+a {text-decoration: none;}
+
+/* mabile */
+@media screen and (max-device-width: 1024px) {
+  p
+  {font-size: 2em;}
+}
+
+menu
+{
+  margin-top: 0px;
+}
+
+
+@media screen and (max-device-width: 1000px) {
+  footer
+  {
+    z-index: 6;
+    height: 70px;
+    width: 100%;
+    left: 40px; bottom: 0;
+    position: fixed;
+  }
+}
+
+
+@media screen and (min-device-width: 1000px) and (max-device-width: 1800px) {
+  footer
+  {
+    z-index: 6;
+    width: 10%;
+    height: 110px;
+    left: 40px; bottom: 0;
+    position: fixed;
+  }
+}
+
+@media screen and (min-device-width: 1800px) {
+  footer
+  {
+    z-index: 6;
+    height: 70px;
+    left: 40px; bottom: 0;
+    position: fixed;
+  }
+}
+
+/* header */
+.Lg
+{
+  margin-left: 30px;
+  margin-top: 10px;
+}
+.Lg3
+{
+  margin-top: 10px;
+  margin-left: -10px;
+}
+.Lg1
+{
+  margin-top: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #ffffff;
+  margin-left: 10px;
+  font-size: 2rem;
+  transition: 2s;
+}
+
+
+.EmailTel
+{
+  /* font-family: "Beckman-Heavy"; */
+  margin-top: 35px;
+  margin-right: 40px;
+  z-index: -1;
+  color: #ffffff;
+  font-size: 1.4rem;
+}
+
+.MenuBtn-1
+{
+  cursor: pointer;
+  margin-top: 10px;
+  transition: 2s;
+}
+
+.MenuBtn-2
+{
+  cursor: pointer;
+  margin-top: 10px;
+  margin-left: -40px;
+}
+
+/* Menu */
+/* desktop */
+@media screen and (min-device-width: 1024px) {
+  .BackGrHeader
+  {
+    background: url(img/1.jpg) no-repeat;
+    /* width: 100%; */
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 60rem;
+    z-index: -1;
+  }
+}
+/* mobile */
+@media screen and (max-device-width: 1024px) {
+  .BackGrHeader
+  {
+    background: url(img/1.jpg) no-repeat;
+    /* width: 100%; */
+    background-position: center;
+    background-size: cover;
+    height: 60rem;
+    z-index: -1;
+  }
+}
+
+.FixPos
+{
+  z-index: 1;
+  position: fixed;
+}
+
+.Menu
+{
+  background-color: hsla(0, 0%, 18%, 0.8);
+  margin-left: -980px;
+  height: 105vh;
+  transition-duration: 1.5s;
+}
+
+.li-el
+{
+  margin-top: 16px;
+  transition-duration: 0.25s;
+}
+
+/* desktop */
+@media screen and (min-device-width: 1700px) {
+  .Menu-el
+  {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    font-size: 2rem;
+    transition-duration: 0.25s;
+  }
+}
+@media screen and (min-device-width: 1000px) and (max-device-width: 1700px) {
+  .Menu-el
+  {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    font-size: 1.10rem;
+    transition-duration: 0.25s;
+  }
+}
+/* mobile */
+@media screen and (max-device-width: 1000px) {
+  .Menu-el
+  {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    font-size: 1.75rem;
+    transition-duration: 0.25s;
+  }
+}
+
+.li-el:hover
+{
+  /* transform: translateX(5px); */
+  /* background-color: #ffffff; */
+  width: 98.5%;
+}
+
+.Menu-el:active
+{
+  color: #f65100;
+}
+.Menu-el:hover
+{
+  padding-left: 5px;
+   /* transform: translateX(5px); */
+  color: #f65100;
+}
+
+.HedorInfo
+{
+  color: #ffffff;
+}
+
+.CompanyTeam
+{
+  font-family:"Forest-1";
+}
+.TeamSl
+{
+  font-family:'Beckman-Heavy';
+  letter-spacing: 15.5px;
+  /* top: 50%;
+  left: 50%;
+  transform: translate(-50%, 850%); */
+}
+/* Specialization-elements */
+
+/* desktop */
+@media screen and (min-device-width: 1024px) {
+  .SpecializationBackGround{
+    background: url(img/2.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 70rem;
+    z-index: -1;
+    padding-top: 15rem;
+  }
+  .indentation
+  {
+    margin-top: 30px;
+  }
+  .indentation-line-block
+  {
+    margin-top: 100px;
+  }
+
+  .indentation-line
+  {
+    margin-top: 12px;
+  }
+
+  .white-line
+  {
+    color:rgb(61, 134, 212);
+    background-color: #ffffff;
+    height: 1px;
+  }
+
+  .Downloadresume
+  {
+    cursor: pointer;
+    font-family: Bahnschrift;
+    color: #ffffff;
+    margin-left: 2.5%;
+  }
+
+}
+
+/* mabile */
+@media screen and (max-device-width: 1024px) {
+  .SpecializationBackGround{
+    background: url(img/2.jpg) no-repeat;
+    background-position: right;
+    background-size: cover;
+    height: 70rem;
+    z-index: -1;
+    padding-top: 2.5rem;
+  }
+  .indentation
+  {
+    margin-top: 10px;
+  }
+  .indentation-line-block
+  {
+    margin-top: 50px;
+  }
+
+  .indentation-line
+  {
+    margin-top: 20px;
+  }
+
+  .white-line
+  {
+    color:rgb(61, 134, 212);
+    background-color: #ffffff;
+    height: 1px;
+  }
+
+  .Downloadresume
+  {
+    font-size: 1.5em;
+    font-family: Bahnschrift;
+    color: #ffffff;
+    margin-left: 2.5%;
+  }
+}
+
+
+.Specialization
+{
+    color:#ffffff;
+    font-family: Bahnschrift;
+}
+.SpecializationNumber
+{
+  font-family: Segoe UI;
+  background: linear-gradient(120deg, #e97529 26%, #9a3768 56%);
+  -webkit-background-clip: text;
+  color: transparent;
+  display: table-cell;
+  /* background-clip: text; */
+}
+.col {cursor: pointer;}
+.SpecHeadCol
+{
+  color:#e97529;
+}
+
+.card-text
+{
+  color:#7f7f7f;
+}
+/* desktop */
+@media screen and (min-device-width: 1024px) {
+  .Skill-Level-Bg
+  {
+    background: url(img/3.jpg) no-repeat;
+    background-position:center;
+    background-size: cover;
+    height: 70rem;
+    z-index: -1;
+    padding-top: 2.5rem;
+  }
+  .Y-text
+  {
+    font-family: Bahnschrift;
+    margin-left: 2%;
+    margin-top: 15vh;
+    color: hsla(0, 0%, 17%, 0.1);
+    writing-mode:tb-rl;
+    -moz-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    z-index: 2;
+  }
+  .Years-Exp
+  {
+    font-family: Bahnschrift;
+    cursor: default;
+    border: 2px solid #000000;
+    width: 27.5%;
+    height: 50rem;
+    margin-top: -47.5rem;
+    margin-left: 25%;
+    font-size: 30rem;
+    transition: 0.5s;
+
+  }
+  .card-text-lvl
+  {
+      margin-right: 25px;
+      margin-top: -17%;
+      font-size: 2rem;
+  }
+
+  .bottom-line{
+      border-bottom: 2px solid;
+      width: 150px;
+      height: 25px;
+  }
+}
+
+/* mobile */
+@media screen and (max-device-width: 1024px) {
+  .Skill-Level-Bg
+  {
+    background: url(img/3.jpg) no-repeat;
+    background-position:left;
+    background-size: cover;
+    height: 70rem;
+    z-index: -1;
+    padding-top: 2.5rem;
+  }
+  .Y-text
+  {
+    font-family: Bahnschrift;
+    margin-left: 2%;
+    margin-top: 15vh;
+    color: hsla(0, 0%, 17%, 0.1);
+    writing-mode:tb-rl;
+    -moz-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    z-index: 2;
+  }
+  .Years-Exp
+  {
+    font-family: Bahnschrift;
+    cursor: default;
+    border: 2px solid #000000;
+    width: 35%;
+    height: 45rem;
+    margin-top: -47.5rem;
+    margin-left: 60%;
+    font-size: 30rem;
+    transition: 0.5s;
+
+  }
+  .card-text-lvl
+  {
+      margin-right: 25px;
+      margin-top: -50%;
+      font-size: 2rem;
+  }
+
+  .bottom-line{
+      border-bottom: 52px solid;
+      width: 150px;
+      height: 25px;
+  }
+}
+
+.Years-Exp:hover
+{
+  cursor: pointer;
+  color:#ffffff;
+  padding-left: 25px;
+  font-size: 29.5rem;
+  background-color: hsla(28, 100%, 50%, 0.65);
+}
+
+/* footer-elements */
+.social-web
+{
+  margin-left: 1.5px;
+  cursor: pointer;
+}
